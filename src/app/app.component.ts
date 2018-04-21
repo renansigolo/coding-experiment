@@ -15,7 +15,8 @@ export class AppComponent {
 
   constructor(
     public dialog: MatDialog
-  ) { }
+  ) {
+  }
 
   openLogin(): void {
     let dialogRef = this.dialog.open(LoginComponent, {

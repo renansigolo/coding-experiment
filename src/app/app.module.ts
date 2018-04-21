@@ -24,6 +24,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './modals/login/login.component';
 import { SignupComponent } from './modals/signup/signup.component';
+import { MainComponent } from './my-experiment/main/main.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,8 @@ import { SignupComponent } from './modals/signup/signup.component';
     NavbarComponent,
     HomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { SignupComponent } from './modals/signup/signup.component';
     MatGridListModule,
     MatDialogModule,
     MatInputModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule,
+    MatTabsModule
   ],
   entryComponents: [LoginComponent, SignupComponent],
   providers: [],
