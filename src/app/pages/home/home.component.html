@@ -27,57 +27,85 @@
 
 </section> -->
 
-<section>
-  <div class="container-fluid">
-    <div class="row top-space">
-      <div class="banner-photo col-12 col-md-8">
-        <div class="banner-box d-none d-md-block">
-          <h1>BG IMG HERE</h1>
-          <h3>Educação para reinventar o seu futuro</h3>
-          <p>Aprenda as habilidades necessárias para reescrever sua carreira se preparando para novos desafios. Sim, você pode aprender o que quiser!</p>
-          <a href="#jornada" class="btn btn-primary btn-block">Encontre seu Curso</a>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+
+  <a class="navbar-brand" href="#">
+    <img src="/assets/home/icon-mastertech-white.svg" width="30" height="30" alt="">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse ml-5" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <span class="dropdown-header">Technology</span>
+          <a class="dropdown-item" href="#">Coding for kids</a>
+          <a class="dropdown-item" href="#">Coding for Non Programmers</a>
+          <a class="dropdown-item" href="#">Learn to code in a weekend</a>
+          <a class="dropdown-item" href="#">Front End Immersive</a>
+          <a class="dropdown-item" href="#">Web FrontEnd</a>
+          <a class="dropdown-item" href="#">Web BackEnd</a>
+          <a class="dropdown-item" href="#">UI/UX Design</a>
+          <a class="dropdown-item" href="#">Immersive Bootcamp of Emerging Technologies - 8 weeks</a>
+          <span class="dropdown-header">Business</span>
+          <a class="dropdown-item" href="#">Scrum with Legos</a>
         </div>
-      </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-      <div class="col-12 d-block d-md-none mt-3 mb-4">
-        <img class="img-fluid" src="assets/home/Home1.jpg">
-        <h3>Educação para reinventar o seu futuro</h3>
-        <p>Aprenda as habilidades necessárias para reescrever sua carreira se preparando para novos desafios. Sim, você pode aprender o que quiser!</p>
-        <a href="#jornada" class="btn btn-primary btn-block">Encontre seu Curso</a>
-      </div>
+<section id="main">
+  <div class="container mt-5">
 
-      <div class="col-12 col-md-4">
-        <div class="row">
-          <div class="courses-box col-6 col-md-12">
-            <img class="img-fluid" src="assets/home/Home1.jpg">
-            <div>
-              <h5>Aprenda e se transforme com a Mastertech</h5>
-              <p>Nossa metodologia é reconhecida por empresas como Google, Facebook e MIT.</p>
-            </div>
-          </div>
-
-          <div class="courses-box col-6 col-md-12">
-            <img class="img-fluid" src="assets/home/home021.jpg">
-            <div>
-              <h5>Lidere equipes ágeis</h5>
-              <p>Como transformar sua equipe tradicional em uma equipe de alta capacidade de entrega?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div>
+      <img class="img-fluid mt-3" src="assets/home/main.jpg">
+      <h3 class="mt-3 font-weight-bold">Education to reinvent your future.</h3>
+      <p>Learn the necessary skills to re-write your carrer preparing yourself to new challenges. Yes, you can learn anything you want!</p>
+      <a href="#journey" class="btn btn-primary btn-block">Find your course</a>
     </div>
+
+    <div class="d-flex justify-content-between">
+      <div class="m-3">
+        <img class="img-fluid" src="assets/home/Home1.jpg">
+        <div class="mt-3">
+          <h5>Learn and transform yourself with Mastertech</h5>
+          <p>Our methodology is recognized by companies like Google, Facebook and MIT.</p>
+        </div>
+      </div>
+      <div class="m-3">
+        <img class="img-fluid" src="assets/home/home021.jpg">
+        <div class="mt-3">
+          <h5>Lead agile teams</h5>
+          <p>How to turn your traditional team into a high-capacity delivery team?</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
-<section class="container">
-  <h2 class="text-center">Vem entender a metodologia Mastertech com aulas gratuitas</h2>
+<section class="container" id="courses-boxes">
+  <h2><span class="font-weight-bold">Understand the Mastertech methodology with free classes</span></h2>
   <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-around">
 
     <div class="card m-1" style="width: 18rem;">
       <img class="card-img-top" src="http://via.placeholder.com/640x320" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title font-weight-bold">Card title</h5>
         <a href="#" class="btn btn-block btn-primary">Go somewhere</a>
       </div>
     </div>
@@ -85,7 +113,7 @@
     <div class="card m-1" style="width: 18rem;">
       <img class="card-img-top" src="http://via.placeholder.com/640x320" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title font-weight-bold">Card title</h5>
         <a href="#" class="btn btn-block btn-primary">Go somewhere</a>
       </div>
     </div>
@@ -93,25 +121,23 @@
     <div class="card m-1" style="width: 18rem;">
       <img class="card-img-top" src="http://via.placeholder.com/640x320" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title font-weight-bold">Card title</h5>
         <a href="#" class="btn btn-block btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
 
-  <div class="row mt-5 text-center">
-    <div class="col-12 offset-sm-4 col-sm-4 mb-2">
-      <div class="col-sm-offset-5">
-        <a class="btn btn-primary btn-block p-2" href="#">Mais conteúdo gratuito</a>
-      </div>
-    </div>
+  <div class="d-flex justify-content-center mt-5">
+    <a class="btn btn-primary p-2" href="#">More free content</a>
   </div>
 
 </section>
 
 
-<section class="container">
-  <h2 class="text-center">Reconhecimento Nacional e Internacional</h2>
+
+
+<section class="container mt-5 mb-5" id="awards">
+  <h2><span class="font-weight-bold">National and International Recognition</span></h2>
   <div class="row mt-3">
     <div class="col-6 col-md-3">
       <img class="img-fluid mx-auto mb-3" src="assets/home/premio-mastertech-google-mit.png">
@@ -129,15 +155,17 @@
 </section>
 
 
-<section class="container">
-  <h2 class="text-center">Escolha sua jornada</h2>
+
+
+<section class="container mb-5" id="journey">
+  <h2><span class="font-weight-bold">Chose your journey</span></h2>
 
   <div class="d-flex text-center flex-column align-items-center flex-md-row justify-content-md-around">
     <button type="button" class="m-2 btn btn-primary btn-lg btn-block">
       <div class="d-flex justify-content-between">
         <div class="d-flex flex-column pl-2">
           <h5 class="pt-2 text-left">UX Design</h5>
-          <small class="pb-2">Design Thinking, Pesquisa de Usuário...</small>
+          <small class="pb-2">Design Thinking, User Research...</small>
         </div>
         <div class="ml-auto p-2 align-self-center"><i class="material-icons">keyboard_arrow_right</i></div>
       </div>
@@ -160,7 +188,7 @@
       <div class="d-flex justify-content-between">
         <div class="d-flex flex-column pl-2">
           <h5 class="pt-2 text-left">UX Design</h5>
-          <small class="pb-2">Design Thinking, Pesquisa de Usuário...</small>
+          <small class="pb-2">Design Thinking, User Research...</small>
         </div>
         <div class="ml-auto p-2 align-self-center"><i class="material-icons">keyboard_arrow_right</i></div>
       </div>
@@ -179,52 +207,97 @@
 
 </section>
 
-<div class="container">
 
-  <h2 class="text-center">Formando profissionais do futuro</h2>
+
+<section class="container mb-5" id="info-content">
+  <h2><span class="font-weight-bold">Forming Professionals of the Future</span></h2>
 
   <div class="row mt-3">
-
-    <div class="col-12 col-sm-6">
+    <div class="col-12 col-md-6 mb-3">
       <img class="img-fluid" src="assets/home/transformeSuaEmpresa.jpg">
     </div>
-    <div class="col-12 col-sm-6">
-      <h3>Transforme sua empresa, construa equipes ágeis e crie processos que geram inovação</h3>
-      <p>A Mastertech é mais do que uma escola, estamos educando para o futuro. Criamos experiências imersivas com foco nas pessoas. Acreditamos na transformação que o conhecimento pode trazer para qualquer um, em qualquer momento. Assista ao vídeo e vem
-        com a gente transformar sua carreira e seu futuro.</p>
+    <div class="col-12 col-md-6">
+      <h3 class="font-weight-bold">Transform your business, build agile teams, and create processes that drive innovation</h3>
+      <p>Mastertech is more than a school, we are educating for the future. We create immersive experiences with a focus on people. We believe in the transformation that knowledge can bring to anyone at any time. Watch the video and come with us transforming
+        your career and your future.</p>
     </div>
-
   </div>
-</div>
+</section>
 
 
-<div class="container">
-  <h2 class="text-center">Digitalize sua força de trabalho</h2>
+<section class="container mb-5" id="info-content">
+  <h2><span class="font-weight-bold">Digitize your workforce</span></h2>
+
   <div class="row mt-3">
-    <div class="col-12 col-sm-6">
+    <div class="col-12 col-md-6 mb-3">
       <img class="img-fluid" src="assets/home/digitalize.jpg">
     </div>
-    <div class="col-12 col-sm-6">
-      <h3>Digitalize seus talentos e acelere a inovação</h3>
-      <p>Quer saber como podemos transformar a sua empresa? A Mastertech faz treinamentos in company e também desenvolve projetos específicos para a demanda que sua empresa precisa. Entre em contato para saber o que podemos fazer juntos dentro da sua empresa.</p>
+    <div class="col-12 col-md-6">
+      <h3 class="font-weight-bold">Digitize your talents and accelerate innovation</h3>
+      <p>Want to know how we can transform your business? Mastertech conducts in-company training and also develops specific projects for the demand that your company needs. Contact us to find out what we can do together within your company.</p>
     </div>
   </div>
-</div>
+</section>
+
+<section class="container mt-5 mb-5" id="map-content">
+  <h2><span class="font-weight-bold">A dedicated networking environment and the creation of new projects</span></h2>
+
+  <div class="row mt-3">
+    <div class="col-12 col-md-6 mb-3">
+      <img class="img-fluid" src="assets/home/wework.png">
+    </div>
+    <div class="col-12 col-md-6">
+      <h3 class="font-weight-bold">The best learning experiences</h3>
+      <p>With more than 2,000 people working on new projects and thinking about innovation, Mastertech is located at Wework, the largest coworking space in the world. Located in the heart of São Paulo on Avenida Paulista, Mastertech is the ideal environment
+        for networking, networking and learning in practice.</p>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.8228195645293!2d151.19158791542685!3d-33.8684568264728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae369658698f%3A0x284bed171a7c5347!2sWeWork+Pyrmont!5e0!3m2!1sen!2sau!4v1524462834794"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-<div class="container">
-  <h2 class="text-center">Já transformamos essas empresas</h2>
+<section class="container mt-5 mb-5" id="video-content">
+  <h2><span class="font-weight-bold">Forming Professionals of the Future</span></h2>
 
-</div>
+  <div class="row mt-3">
+    <div class="col-12 col-md-6 mb-3">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3aT61IK3VEY" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <h3 class="font-weight-bold">The best learning experiences</h3>
+      <p>Mastertech is more than a school, we are educating for the future. We create immersive experiences with a focus on people. We believe in the transformation that knowledge can bring to anyone at any time.</p>
+    </div>
+  </div>
+</section>
 
-<footer class="bg-secondary">
+
+<section class="container mt-5 mb-5" id="newsletter">
+  <h2><span class="font-weight-bold">Subscribe to our newsletter</span></h2>
+  <div class="d-flex flex-column align-items-center flex-md-row justify-content-md-center">
+    <div class="input-group mr-5 ml-5">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1"><i class="material-icons">mail_outline</i></span>
+      </div>
+      <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+    </div>
+    <button type="button" name="button" class="btn btn-block btn-primary p-2 m-2">Subscribe</button>
+  </div>
+</section>
+
+
+<footer class="bg-secondary mt-5">
   <div class="container">
     <div class="row">
 
       <div class="col-lg-3 col-sm-12">
-        <img class="img-fluid" src="assets/home/logo-mastertech-branco.png">
-        <p class="text-light"> A Mastertech é mais do que uma escola, estamos educando para o futuro. Criamos experiências imersivas com foco nas pessoas. Acreditamos na transformação que o conhecimento pode trazer para qualquer um, em qualquer momento.</p>
-        <hr class="bg-light d-md-none d-lg-none">
+        <img class="img-fluid pt-3 pb-3" src="assets/home/logo-mastertech-branco.png">
+        <p class="text-light">Mastertech is more than a school, we are educating for the future. We create immersive experiences with a focus on people. We believe in the transformation that knowledge can bring to anyone at any time.</p>
+        <hr class=" d-md-none d-lg-none">
       </div>
 
       <div class="col-lg-3">
@@ -232,27 +305,27 @@
 
       <div class="col-lg-2 col-sm-12">
         <ul>
-          <li>A Mastertech</li>
-          <li><a href="https://www.youtube.com/watch?v=3aT61IK3VEY" target="_blank">Sobre a Mastertech</a></li>
-          <li><a href="https://goo.gl/maps/WtdHMMyCmxJ2" target="_blank">Localização</a></li>
+          <li>Mastertech</li>
+          <li><a href="https://www.youtube.com/watch?v=3aT61IK3VEY" target="_blank">About Mastertech</a></li>
+          <li><a href="https://goo.gl/maps/WtdHMMyCmxJ2" target="_blank">Location</a></li>
           <li><a href="https://blog.mastertech.tech/" target="_blank">Blog</a></li>
-          <li><a href="mailto:giselle@mastertech.tech?Subject=Seja%20um%20instrutor%20Mastertech" target="_top">Seja um instrutor</a></li>
+          <li><a href="mailto:giselle@mastertech.tech?Subject=Seja%20um%20instrutor%20Mastertech" target="_top">Become an instructor</a></li>
         </ul>
-        <hr class="bg-light d-lg-none">
+        <hr class=" d-lg-none">
       </div>
       <div class="col-lg-2 col-sm-12">
         <ul>
-          <li>Nossos projetos</li>
+          <li>Our projects</li>
           <li><a href="https://mastertech.com.br/apollo18" target="_blank">Apollo18</a></li>
           <li><a href="https://mastertech.com.br/estacaohack" target="_blank">Estação Hack</a></li>
         </ul>
-        <hr class="bg-light d-lg-none">
+        <hr class=" d-lg-none">
       </div>
       <div class="col-lg-2 col-sm-12">
         <ul>
-          <li>Fale com a gente</li>
-          <li>Email: oi@mastertech.tech</li>
-          <li>Whats: (11) 99894-1441</li>
+          <li>Talk with us</li>
+          <li>Email:hi@mastertech.tech</li>
+          <li>Whats: + 61 434385978</li>
         </ul>
 
       </div>
