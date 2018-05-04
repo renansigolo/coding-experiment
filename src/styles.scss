@@ -1,23 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "./assets/mystyles.scss";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons"); // body {
+//   margin: 0;
+//
+//   mat-sidenav-content {
+//     min-height: 100vh;
+//   }
+// }
+// Styles to General Elements
 
 body {
-  margin: 0;
-  //Helpers
-  .text-center {
-    text-align: center;
-  }
+  margin-top: 58px;
+}
 
-  .btn-block {
-    width: 80%;
-  }
+h2 {
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 0 2%;
+}
 
-  .full-width {
-    width: 100%;
-  }
+h2 span {
+  background: #fff;
+  padding: 0 15px;
+  font-weight: bold;
+}
 
-  .justify-content-center {
-    display: flex;
-    justify-content: center;
-  }
+h2:before {
+  border-top: 2px solid #dfdfdf;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+h5,
+h6 {
+  font-weight: bold;
+}
+
+input.form-control,
+textarea.form-control {
+  border-radius: 0;
+  border-left: 0;
+}
+
+.input-group-text {
+  background-color: white !important;
+}
+
+.btn {
+  border-radius: 0;
 }

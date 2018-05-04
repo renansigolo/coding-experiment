@@ -1,9 +1,27 @@
-.example-fill-remaining-space {
-  /* This fills the remaining space, by using flexbox.
-     Every toolbar row uses a flexbox row layout. */
+.fill-remaining-space {
   flex: 1 1 auto;
 }
 
 mat-sidenav {
   width: 100vw;
+}
+// .mat-button {
+//   text-align: right;
+// }
+
+.navbar-toggler {
+  border: none;
+}
+
+.dropdown-menu {
+  background-color: #151515;
+  border: none;
+
+  .dropdown-item {
+    color: white;
+  }
+
+  .dropdown-item:hover {
+    color: #151515;
+  }
 }

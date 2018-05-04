@@ -18,12 +18,21 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
 import { MatExpansionModule } from '@angular/material/expansion';
-
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
-import { LoginComponent } from './modals/login/login.component';
+import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './modals/signup/signup.component';
+import { MainComponent } from './my-experiment/main/main.component';
+import { CoursesComponent } from './pages/courses/courses.component';
+import { CourseDetailsComponent } from './pages/course-details/course-details.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NewsletterComponent } from './components/web/newsletter/newsletter.component';
+import { YoutubeComponent } from './components/web/youtube/youtube.component';
+import { AwardsComponent } from './components/web/awards/awards.component';
+import { LocationComponent } from './components/web/location/location.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +40,15 @@ import { SignupComponent } from './modals/signup/signup.component';
     NavbarComponent,
     HomeComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    MainComponent,
+    CoursesComponent,
+    CourseDetailsComponent,
+    FooterComponent,
+    NewsletterComponent,
+    YoutubeComponent,
+    AwardsComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +63,9 @@ import { SignupComponent } from './modals/signup/signup.component';
     MatGridListModule,
     MatDialogModule,
     MatInputModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule,
+    MatTabsModule
   ],
   entryComponents: [LoginComponent, SignupComponent],
   providers: [],

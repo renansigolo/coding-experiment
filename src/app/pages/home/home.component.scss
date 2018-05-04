@@ -1,4 +1,32 @@
-img {
-  height: 100%;
-  width: 100%;
+#main {
+  img:first-child {
+    max-height: 60vh;
+    width: 100vw;
+  }
+
+  .btn {
+    border-radius: 0;
+    padding: 1rem;
+  }
+}
+
+#courses-boxes {
+  .card {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    .card-img-top {
+      border-radius: 0;
+      transition: 0.5s;
+    }
+
+    .card-img-top:hover {
+      box-shadow: 0 10px 15px #999;
+    }
+
+    .card-body {
+      padding: 1.25rem 0;
+    }
+  }
 }
