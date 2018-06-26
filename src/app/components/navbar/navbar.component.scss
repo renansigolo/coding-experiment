@@ -1,27 +1,27 @@
 .fill-remaining-space {
-  flex: 1 1 auto;
+	flex: 1 1 auto;
 }
 
 mat-sidenav {
-  width: 100vw;
+	width: 100vw;
 }
 // .mat-button {
 //   text-align: right;
 // }
 
 .navbar-toggler {
-  border: none;
+	border: 0;
 }
 
 .dropdown-menu {
-  background-color: #151515;
-  border: none;
+	background-color: #151515;
+	border: 0;
 
-  .dropdown-item {
-    color: white;
-  }
+	.dropdown-item {
+		color: #fff;
+	}
 
-  .dropdown-item:hover {
-    color: #151515;
-  }
+	.dropdown-item:hover {
+		color: #151515;
+	}
 }
